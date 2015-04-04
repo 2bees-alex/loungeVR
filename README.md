@@ -2,6 +2,11 @@
 Lullabot's first VR website. Visit in [janusVR](http://janusvr.com/) >>> http://lullabot.github.io/lb_breakroom/
 
 ## Viewing
+
+### Prerequisites
+* [janusVR](http://janusvr.com/)
+* [Mumble Client](http://wiki.mumble.info/wiki/Main_Page) (if you want voice chat)
+
 To view this site properly, you need the janusVR 3D web browser. Go to http://janusvr.com/, click the download link, and choose the client for your OS.
 
 Upon first launching the browser you will be taken to the default website which is called the Lobby. From here you can walk around and click on various other portals to explore even further. Here are some of the basic controls:
