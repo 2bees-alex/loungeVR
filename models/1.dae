@@ -79,70 +79,70 @@
   </library_lights>
   <library_images>
     <image id="_18_png" name="_18_png">
-      <init_from>_18.jpg</init_from>
+      <init_from>18.jpg</init_from>
     </image>
     <image id="lightmap" name="lightmap">
       <init_from>lightmap.jpg</init_from>
     </image>
     <image id="_14_png" name="_14_png">
-      <init_from>_14.jpg</init_from>
+      <init_from>14.jpg</init_from>
     </image>
     <image id="_16_png" name="_16_png">
-      <init_from>_16.jpg</init_from>
+      <init_from>16.jpg</init_from>
     </image>
     <image id="_17_png" name="_17_png">
-      <init_from>_17.jpg</init_from>
+      <init_from>17.jpg</init_from>
     </image>
     <image id="_10_png" name="_10_png">
-      <init_from>_10.jpg</init_from>
+      <init_from>10.jpg</init_from>
     </image>
     <image id="_11_png" name="_11_png">
-      <init_from>_11.jpg</init_from>
+      <init_from>11.jpg</init_from>
     </image>
     <image id="_13_png" name="_13_png">
-      <init_from>_13.jpg</init_from>
+      <init_from>13.jpg</init_from>
     </image>
     <image id="_21_png" name="_21_png">
-      <init_from>_21.jpg</init_from>
+      <init_from>21.jpg</init_from>
     </image>
     <image id="_20_jpg" name="_20_jpg">
-      <init_from>_20.jpg</init_from>
+      <init_from>20.jpg</init_from>
     </image>
     <image id="_23_png" name="_23_png">
-      <init_from>_23.jpg</init_from>
+      <init_from>23.jpg</init_from>
     </image>
     <image id="_22_png" name="_22_png">
-      <init_from>_22.jpg</init_from>
+      <init_from>22.jpg</init_from>
     </image>
     <image id="_19_png" name="_19_png">
-      <init_from>_19.jpg</init_from>
+      <init_from>19.jpg</init_from>
     </image>
     <image id="_6_png" name="_6_png">
-      <init_from>_6.jpg</init_from>
+      <init_from>6.jpg</init_from>
     </image>
     <image id="_7_png" name="_7_png">
-      <init_from>_7.jpg</init_from>
+      <init_from>7.jpg</init_from>
     </image>
     <image id="_4_png" name="_4_png">
-      <init_from>_4.jpg</init_from>
+      <init_from>4.jpg</init_from>
     </image>
     <image id="_5_png" name="_5_png">
-      <init_from>_5.jpg</init_from>
+      <init_from>5.jpg</init_from>
     </image>
     <image id="_2_png" name="_2_png">
-      <init_from>_2.jpg</init_from>
+      <init_from>2.jpg</init_from>
     </image>
     <image id="_3_png" name="_3_png">
-      <init_from>_3.jpg</init_from>
+      <init_from>3.jpg</init_from>
     </image>
     <image id="_15_png" name="_15_png">
-      <init_from>_15.jpg</init_from>
+      <init_from>15.jpg</init_from>
     </image>
     <image id="_8_png" name="_8_png">
-      <init_from>_8.jpg</init_from>
+      <init_from>8.jpg</init_from>
     </image>
     <image id="_9_png" name="_9_png">
-      <init_from>_9.jpg</init_from>
+      <init_from>9.jpg</init_from>
     </image>
   </library_images>
   <library_effects>
