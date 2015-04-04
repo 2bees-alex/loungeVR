@@ -1,0 +1,25 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl _Green_
+Ka 0.000000 0.000000 0.000000
+Kd 0.231373 0.764706 0.231373
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Lime_
+Ka 0.000000 0.000000 0.000000
+Kd 0.431373 0.764706 0.254902
+Ks 0.330000 0.330000 0.330000
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Chipboard_
+Ka 0.000000 0.000000 0.000000
+Kd 0.603922 0.513725 0.290196
+Ks 0.330000 0.330000 0.330000
+map_Kd bamboo/_Chipboard_.png
+
