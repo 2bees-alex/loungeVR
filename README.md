@@ -7,25 +7,25 @@ To view this site properly, you need the janusVR 3D web browser. Go to http://ja
 Upon first launching the browser you will be taken to the default website which is called the Lobby. From here you can walk around and click on various other portals to explore even further. Here are some of the basic controls:
 
 ### Movement
-* Hit `w`, `a`, `s`, `d` to move around.
-* Hit `f` to enter flight mode. Look where you want to fly and hit `w`, `a`, `s`, `d` to move.
+* Hit `w`, `a`, `s`, `d`, `q`, and `e` to move around.
+* Hit `f` to enter flight mode. Look where you want to fly and hit `w`, `a`, `s`, `d`, `q`, and `e` to move.
 * Hold left click to see an arrow. After a few miliseconds you'll see a green avatar appear. Release to instantly teleport to where your mouse cursor is placed.
 
 ### Navigation
 * Left click on any portal to open and just walk through.
 * Hit `tab` to create your own portal. A textbox will appear with the ability to type in any url you want. If the website you choose does not have janusML, a default room will be generated with the 2D version of the website presented on the walls.
 * Click on a web surface to control the website. While the web surface has control of your mouse, you can hit `tab` to enter a new address. Note that `tab` does not switch between text input fields in a web surface.
-* Hit `cmd+b`(mac) or `ctrl+b`(win) to bookmark the current url you are within.
+* Hit `cmd+b`(mac) or `ctrl+b`(win) to bookmark the current url you are within. Bookmarks can be accessed from the main lobby, or from the `esc` menu.
 
 ### Communication
-* Hit `t` to text chat.
+* Hit `t` to text chat within janusVR.
 * Hit `c` to open up the chat log. You can scroll this with your mouse wheel or trackpad.
 * To voice chat with the **janusVR community**, download the Mumble client and connect to 
  * Address: `babylon.vrsites.com`
  * Port: `64738`
 * The janusVR community also communicates asychronously via the [janusVR subreddit](http://www.reddit.com/r/janusVR/).
 
-### General Options
+### `ESC` Menu
 * Hit `esc` to see various options presented as floating buttons. This will also give you a floating web surface presenting the 2D version of the url you are currently within, as well as your avatar, and a link to your bookmarks. Hit `esc` again to turn off the menu. 
 
 ### Editing Basics
