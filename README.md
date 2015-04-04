@@ -29,10 +29,12 @@ Upon first launching the browser you will be taken to the default website which 
 * Hit `esc` to see various options presented as floating buttons. This will also give you a floating web surface presenting the 2D version of the url you are currently within, as well as your avatar, and a link to your bookmarks. Hit `esc` again to turn off the menu. 
 
 ### Editing Basics
-* Hit `esc` to access the options and select `Edit Mode` to turn it on. Hit `esc` again to turn off the menu. Now you can use the right click to edit anything you see (unless it's locked).
-* A single right-click will spawn a primitive object. If you now hit `w`, `a`, `s`, `d` you can cycle through various primitive object. Another single right-click will cancel the operation. A single left-click will commit the operation, placing the object within the room where others can now see it.
-* A single right-click on an object will highlight it and it will begin to glow. Text will appear in front of it indicating it's `pos` vector. You can change these values with the `w`, `a`, `s`, `d`, `q`, and `e` keys. Hitting the `tab` key while an object is highlighted will allow you to cycle through the objects attributes such as `xdir, ydir, zdir`, `scale`, `col`(color), etc.
-* Hit `cmd+s`(mac) or `ctrl+s`(win) to save the source code of the url you are within to your clipboard. This also saves an html file of the output to your workspaces directory. The workspaces directory is found within `/Applications/janusvr.app/Contents/MacOS/`(mac) or alongside of the janusVR executable(win).
+* **Turn on edit mode**: Hit `esc` to access the options and select `Edit Mode` to turn it on. Hit `esc` again to turn off the menu. Now you can use the right click to edit anything you see (unless it's locked).
+* **Spawning**: A single right-click will spawn a primitive object. If you now hit `w`, `a`, `s`, `d` you can cycle through various primitive object. Another single right-click will cancel the operation. A single left-click will commit the operation, placing the object within the room where others can now see it.
+* **Selecting**: A single right-click on an object will highlight it and it will begin to glow. Text will appear in front of it indicating it's `pos` vector. You can change these values with the `w`, `a`, `s`, `d`, `q`, and `e` keys. Hitting the `tab` key while an object is highlighted will allow you to cycle through the objects attributes such as `xdir, ydir, zdir`, `scale`, `col`(color), etc.
+* **Copying**: While and object is highlighted with a right-click, you can also copy it with `cmd+c`(mac) or `ctrl+c`(win).
+* **Pasting**: Hold right-click and place the green cursor whereever you like, then hit `cmd+v`(mac) or `ctrl+v`(win) to paste a copy of the object.
+* **Saving**: Hit `cmd+s`(mac) or `ctrl+s`(win) to save the source code of the url you are within to your clipboard. This also saves an html file of the output to your workspaces directory. The workspaces directory is found within `/Applications/janusvr.app/Contents/MacOS/`(mac) or alongside of the janusVR executable(win).
 
 ### Changing Avatars
 * **Method 1**: `cmd+click`(mac) or `ctrl+click`(win) on any ghost you find to assign it as your own avatar. A ghost is a janusML specific asset. You can find a bunch of pre-made avatars at http://lobby.vrsites.com/avtype/
