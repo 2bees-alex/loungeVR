@@ -1,6 +1,12 @@
 # The Lullabot Breakroom in VR
 Lullabot's first VR website. Visit in [janusVR](http://janusvr.com/) >>> http://lullabot.github.io/lb_breakroom/
 
+## tldr;
+* download janusVR
+* launch janusVR
+* when you see a room, hit tab and enter the address http://lullabot.github.io/lb_breakroom/
+* a portal will appear. click the portal and walk through and you'll be in this lounge
+
 ## Viewing
 
 ### Prerequisites
