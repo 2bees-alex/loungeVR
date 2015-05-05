@@ -1,4 +1,4 @@
-# The Lullabot Lunge in VR
+# The Lullabot Lounge in VR
 Lullabot's first VR website. Visit in [janusVR](http://janusvr.com/) >>> http://lullabot.github.io/loungeVR/
 
 ## tldr;
