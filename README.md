@@ -1,5 +1,5 @@
 # The Lullabot Lunge in VR
-Lullabot's first VR website. Visit in [janusVR](http://janusvr.com/) >>> http://lullabot.github.io/lb_breakroom/
+Lullabot's first VR website. Visit in [janusVR](http://janusvr.com/) >>> http://lullabot.github.io/loungeVR/
 
 ## tldr;
 * download janusVR
