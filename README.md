@@ -1,4 +1,4 @@
-# The Lullabot Breakroom in VR
+# The Lullabot Lunge in VR
 Lullabot's first VR website. Visit in [janusVR](http://janusvr.com/) >>> http://lullabot.github.io/lb_breakroom/
 
 ## tldr;
