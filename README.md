@@ -1,10 +1,10 @@
-# The Lullabot Lunge in VR
-Lullabot's first VR website. Visit in [janusVR](http://janusvr.com/) >>> http://lullabot.github.io/lb_breakroom/
+# The Lullabot Lounge in VR
+Lullabot's first VR website. Visit in [janusVR](http://janusvr.com/) >>> http://lullabot.github.io/loungeVR/
 
 ## tldr;
 * download janusVR
 * launch janusVR
-* when you see a room, hit tab and enter the address http://lullabot.github.io/lb_breakroom/
+* when you see a room, hit tab and enter the address http://lullabot.github.io/loungeVR/
 * a portal will appear. click the portal and walk through and you'll be in this lounge
 
 ## Viewing
@@ -34,7 +34,7 @@ Upon first launching the browser you will be taken to the default website which 
 * To voice chat with the **janusVR community**, download the Mumble client and connect to 
  * Address: `babylon.vrsites.com`
  * Port: `64738`
-* T voice chat with **Lullabots**, see our [wiki page](https://github.com/Lullabot/lb_breakroom/wiki/Connecting-to-our-Mumble-Chat).
+* T voice chat with **Lullabots**, see our [wiki page](https://github.com/Lullabot/loungeVR/wiki/Connecting-to-our-Mumble-Chat).
 * The janusVR community also communicates asychronously via the [janusVR subreddit](http://www.reddit.com/r/janusVR/).
 
 ### `ESC` Menu
