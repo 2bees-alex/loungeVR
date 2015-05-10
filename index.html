@@ -1,112 +1,114 @@
-<!-- Written with Janus VR.  URL: http://l.lounge.com -->
+<!-- Written with Janus VR.  URL: http://lullabot.github.io/loungeVR/ -->
 <html>
 <head>
-    <title>Lullabot Lounge</title>
+<title>Lullabot Lounge</title>
 </head>
 <body>
 <FireBoxRoom>
-    <Assets>
-        <AssetObject id="lullabot" src="models/6inch_robot.dwg.obj" mtl="models/6inch_robot.dwg.mtl" tex_compress="true" />
-        <AssetObject id="bush_1" src="models/bamboo.obj" mtl="models/bamboo.mtl" tex_compress="true" />
-        <AssetObject id="emit" src="models/emit.obj" tex0="imgs/white.png" tex_compress="true" />
-        <AssetObject id="coll" src="models/obj_floor.obj" tex0="imgs/transparent.png" tex_compress="true" />
-        <AssetObject id="stone" src="models/stone.obj" mtl="models/stone.mtl" tex_compress="true" />
-        <AssetObject id="main" src="models/1.dae" tex_compress="true" />
-        <AssetObject id="plane" src="expo/assets/plane.obj" />
-        <AssetImage id="msnbc" src="expo/msnbc_thumb.jpg" tex_clamp="true" tex_compress="true" />
-        <AssetImage id="back" src="imgs/back.jpg" tex_clamp="true" tex_compress="true" />
-        <AssetImage id="syfy" src="expo/syfy_thumb.jpg" tex_clamp="true" tex_compress="true" />
-        <AssetImage id="mexico" src="imgs/mexico.jpg" tex_clamp="true" tex_compress="true" />
-        <AssetImage id="top" src="imgs/top.jpg" tex_clamp="true" tex_compress="true" />
-        <AssetImage id="smoketree" src="imgs/smoketree.jpeg" tex_clamp="true" tex_compress="true" />
-        <AssetImage id="left" src="imgs/left.jpg" tex_clamp="true" tex_compress="true" />
-        <AssetImage id="namm" src="expo/namm_thumb.jpg" tex_clamp="true" tex_compress="true" />
-        <AssetImage id="bravo" src="expo/bravo_thumb.jpg" tex_clamp="true" tex_compress="true" />
-        <AssetImage id="client-logos" src="imgs/client-logos.png" tex_clamp="true" tex_compress="true" />
-        <AssetImage id="lullalogo" src="imgs/lullalogo_horizontal.png" tex_clamp="true" tex_compress="true" />
-        <AssetImage id="front" src="imgs/front.jpg" tex_clamp="true" tex_compress="true" />
-        <AssetImage id="bot_poster" src="imgs/ad_lullabot_print.png" tex_clamp="true" tex_compress="true" />
-        <AssetImage id="bottom" src="imgs/bottom.jpg" tex_clamp="true" tex_compress="true" />
-        <AssetImage id="right" src="imgs/right.jpg" tex_clamp="true" tex_compress="true" />
-        <AssetShader id="distort" vertex_src="shaders/distort.txt" />
-        <AssetSound id="bg-audio" src="audio/Inspiring.mp3" />
-        <AssetWebSurface id="botvid" src="https://vimeo.com/116565603" width="1280" height="720" />
-    </Assets>
-    <Room pos="2.200000 -2.100000 -2.200000" xdir="0.707107 0.000000 0.707106" ydir="0.000000 1.000000 0.000000" zdir="-0.707106 0.000000 0.707107" col="1.000000 1.000000 1.000000" skybox_down_id="bottom" skybox_front_id="front" skybox_left_id="left" skybox_back_id="back" skybox_right_id="right" skybox_up_id="top" teleport_min_dist="10000.000000" teleport_max_dist="10000.000000">
-        <Object id="plane" pos="-7.9 -0.4 17.4" xdir="-1.000 0.000 0.000" zdir="0.000 0.000 -1.000" scale="7.3 3.7 1" lighting="false" websurface_id="botvid" />
-        <Object id="bush_1" js_id="7" pos="-38.799999 -2.200000 18.100000" xdir="-0.022 -0.004 -1.000" ydir="0.004 1.000 -0.004" zdir="1.000 -0.004 -0.022" scale="0.800000 0.800000 0.800000" shader_id="distort" />
-        <Object id="stone" js_id="8" pos="-38.895828 -2.246336 2.886888" xdir="-0.605 0.000 -0.796" ydir="0.004 1.000 -0.003" zdir="0.796 -0.005 -0.605" scale="1.600000 1.000000 1.000000" lighting="false" />
-        <Object id="stone" js_id="9" pos="-38.085728 -2.245021 -1.252228" xdir="-0.530 -0.000 -0.848" ydir="0.004 1.000 -0.003" zdir="0.848 -0.005 -0.530" scale="1.600000 1.000000 1.000000" lighting="false" />
-        <Image id="mexico" js_id="10" pos="-24.800001 -1.000000 0.800000" xdir="-0.788 0.000 0.616" ydir="-0.002 1.000 -0.003" zdir="-0.616 -0.004 -0.788" scale="2.000000 2.000000 0.900000" lighting="false" />
-        <Object id="stone" js_id="11" pos="-38.600002 -2.400000 14.000000" xdir="0.392 -0.005 -0.920" ydir="0.004 1.000 -0.004" zdir="0.920 -0.002 0.392" scale="1.600000 1.000000 1.000000" lighting="false" />
-        <Object id="bush_1" js_id="12" pos="-28.072840 -1.825488 5.768062" xdir="-0.415 0.005 0.910" ydir="0.004 1.000 -0.004" zdir="-0.910 0.002 -0.415" scale="0.200000 0.200000 0.400000" col="0.500 0.510 0.500" shader_id="distort" />
-        <Object id="stone" js_id="13" pos="-37.982639 -2.247366 20.221716" xdir="-0.575 -0.000 -0.818" ydir="0.004 1.000 -0.003" zdir="0.818 -0.005 -0.575" scale="0.900000 0.600000 0.500000" lighting="false" />
-        <Object id="stone" js_id="14" pos="-38.400002 -2.600000 -2.300000" xdir="0.000 0.000 -1.000" zdir="1.000 0.000 0.000" scale="0.400000 2.600000 0.300000" col="1.000 0.990 0.800" lighting="false" />
-        <Object id="coll" js_id="15" locked="true" pos="-27.800001 -3.000000 -5.300000" scale="82.000000 11.000000 1.000000" collision_id="plane" />
-        <Object id="stone" js_id="16" pos="-38.200001 -2.200000 18.000000" xdir="0.977 -0.000 0.212" ydir="-0.001 1.000 0.006" zdir="-0.212 -0.006 0.977" scale="1.400000 1.000000 1.000000" lighting="false" />
-        <Object id="bush_1" js_id="17" pos="-38.887230 -2.246196 -3.921478" xdir="0.385 0.000 -0.923" ydir="0.002 1.000 0.001" zdir="0.923 -0.002 0.385" scale="0.500000 0.500000 0.500000" shader_id="distort" />
-        <Object id="bush_1" js_id="18" pos="-9.400001 -2.400000 6.900000" xdir="-0.816 0.006 0.577" ydir="0.004 1.000 -0.004" zdir="-0.577 -0.001 -0.816" scale="0.200000 0.100000 0.100000" shader_id="distort" />
-        <Object id="stone" js_id="19" pos="-38.452850 -2.246656 19.698997" xdir="-0.877 -0.002 -0.481" ydir="0.001 1.000 -0.005" zdir="0.481 -0.005 -0.877" scale="1.400000 2.600000 0.500000" col="1.000 0.990 0.800" lighting="false" />
-        <Object id="bush_1" js_id="20" pos="-28.000000 -1.800000 6.030000" xdir="0.897 0.004 -0.442" ydir="-0.005 1.000 -0.002" zdir="0.442 0.004 0.897" scale="0.400000 0.200000 0.400000" col="0.500 0.510 0.500" shader_id="distort" />
-        <Object id="main" js_id="21" locked="true" pos="5.000000 -2.000000 -5.000000" xdir="-1.000 0.000 0.000" zdir="0.000 0.000 -1.000" lighting="false" collision_id="main" />
-        <Object id="stone" js_id="22" pos="-9.500001 -2.700000 7.700000" xdir="0.849 -0.003 -0.529" ydir="0.005 1.000 0.003" zdir="0.529 -0.005 0.849" scale="1.300000 2.000000 0.600000" lighting="false" />
-        <Object id="stone" js_id="23" pos="-39.400002 -2.600000 7.000000" xdir="0.957 0.000 -0.289" ydir="-0.001 1.000 -0.003" zdir="0.289 0.003 0.957" scale="3.000000 2.000000 2.000000" lighting="false" />
-        <Object id="coll" js_id="24" locked="true" pos="-39.000000 8.000000 8.000000" xdir="0.000 0.000 1.000" ydir="0.000 -1.000 0.000" zdir="1.000 0.000 0.000" scale="28.000000 11.000000 1.000000" collision_id="plane" />
-        <Object id="bush_1" js_id="25" pos="-38.308315 -2.246497 3.739860" xdir="-0.290 0.000 -0.957" ydir="0.005 1.000 -0.001" zdir="0.957 -0.005 -0.290" scale="0.500000 0.500000 0.500000" shader_id="distort" />
-        <Object id="coll" js_id="26" locked="true" pos="-24.000000 -4.000000 21.600000" xdir="-1.000 0.004 -0.012" ydir="0.004 1.000 -0.004" zdir="0.012 -0.004 -1.000" scale="54.000000 11.000000 1.000000" collision_id="plane" />
-        <Image id="smoketree" js_id="27" pos="-25.000000 -0.800000 14.100000" xdir="0.788 0.000 0.616" ydir="0.002 1.000 -0.003" zdir="-0.616 0.004 0.788" scale="2.000000 2.000000 0.900000" lighting="false" />
-        <Object id="bush_1" js_id="28" pos="-39.170780 -2.250109 17.355104" xdir="-0.078 -0.004 -0.997" ydir="0.004 1.000 -0.004" zdir="0.997 -0.004 -0.078" shader_id="distort" />
-        <Object id="bush_1" js_id="29" pos="-9.200000 -2.400000 7.200000" xdir="0.669 -0.000 0.743" ydir="-0.004 1.000 0.004" zdir="-0.743 -0.006 0.669" scale="0.300000 0.100000 0.200000" shader_id="distort" />
-        <Object id="bush_1" js_id="30" pos="-6.300000 -2.500000 10.000000" xdir="0.000 0.000 1.000" zdir="-1.000 0.000 0.000" scale="0.200000 0.200000 0.300000" shader_id="distort" />
-        <Object id="bush_1" js_id="31" pos="-38.600002 -2.300000 15.500000" xdir="0.168 -0.004 -0.986" ydir="0.005 1.000 -0.003" zdir="0.986 -0.004 0.168" scale="0.600000 0.600000 0.600000" col="0.980 0.980 1.000" shader_id="distort" />
-        <Object id="bush_1" js_id="32" pos="-38.538414 -2.249637 -2.244159" xdir="-0.063 0.000 -0.998" ydir="0.004 1.000 -0.000" zdir="0.998 -0.004 -0.063" shader_id="distort" />
-        <Object id="emit" js_id="33" locked="true" pos="5.000000 -2.000000 -5.000000" xdir="-1.000 0.000 0.000" zdir="0.000 0.000 -1.000" lighting="false" collision_id="emit" />
-        <Object id="bush_1" js_id="34" pos="-38.567001 -2.245740 5.823911" xdir="-0.998 0.000 0.067" ydir="-0.000 1.000 -0.004" zdir="-0.067 -0.004 -0.998" scale="0.700000 0.700000 0.700000" shader_id="distort" />
-        <Object id="bush_1" js_id="35" pos="-38.607471 -2.248118 -3.044181" xdir="0.240 0.000 -0.971" ydir="0.003 1.000 0.001" zdir="0.971 -0.003 0.240" scale="0.700000 0.700000 0.700000" shader_id="distort" />
-        <Object id="stone" js_id="36" pos="-38.799999 -2.400000 16.600000" xdir="0.150 -0.000 -0.989" ydir="0.003 1.000 0.000" zdir="0.989 -0.003 0.150" scale="1.600000 1.000000 1.000000" lighting="false" />
-        <Image id="lullalogo" js_id="37" pos="-16.700001 2.400000 7.400000" xdir="0.000 0.000 -1.000" zdir="1.000 0.000 0.000" scale="2.000000 2.000000 0.100000" />
-        <Image id="logo" js_id="38" pos="-16.770000 2.410000 7.310000" xdir="0.000 0.000 -1.000" zdir="1.000 0.000 0.000" scale="2.100000 1.650000 1.000000" />
-        <Object id="bush_1" js_id="39" pos="-38.249813 -2.246797 2.034506" xdir="0.058 -0.000 -0.998" ydir="0.004 1.000 0.000" zdir="0.998 -0.004 0.058" scale="0.700000 0.700000 0.700000" shader_id="distort" />
-        <Object id="stone" js_id="40" pos="-38.299999 -2.500000 -3.000000" xdir="0.000 0.000 1.000" zdir="-1.000 0.000 0.000" scale="0.400000 2.600000 0.400000" col="1.000 0.990 0.800" lighting="false" />
-        <Object id="bush_1" js_id="41" pos="-6.500000 -2.400000 10.000000" xdir="-0.753 0.000 -0.659" ydir="0.004 1.000 -0.004" zdir="0.659 -0.006 -0.753" scale="0.200000 0.100000 0.200000" shader_id="distort" />
-        <Object id="bush_1" js_id="42" pos="-9.400001 -2.700000 7.200000" xdir="-0.336 -0.002 -0.942" ydir="0.004 1.000 -0.004" zdir="0.942 -0.005 -0.336" scale="0.300000 0.200000 0.300000" shader_id="distort" />
-        <Object id="bush_1" js_id="43" pos="-38.681084 -2.248768 -1.275192" xdir="0.127 -0.000 -0.992" ydir="0.003 1.000 0.000" zdir="0.992 -0.003 0.127" scale="0.700000 0.700000 0.700000" shader_id="distort" />
-        <Object id="stone" js_id="44" pos="-28.100000 -2.000000 8.600000" xdir="-0.429 0.006 -0.903" ydir="0.001 1.000 0.006" zdir="0.903 0.002 -0.429" scale="1.600000 1.000000 1.000000" col="0.500 0.500 0.500" lighting="false" />
-        <Object id="stone" js_id="45" pos="-38.299999 -2.300000 -2.600000" xdir="0.000 0.000 -1.000" zdir="1.000 0.000 0.000" scale="0.400000 2.600000 0.300000" col="1.000 0.990 0.800" lighting="false" />
-        <Object id="bush_1" js_id="46" pos="-38.799999 -2.600000 14.300000" xdir="-0.500 0.000 0.866" zdir="-0.866 0.000 -0.500" scale="0.500000 0.500000 0.500000" shader_id="distort" />
-        <Image id="client-logos" js_id="47" pos="-27.099998 -1.540000 7.470000" xdir="0.000 0.000 -1.000" zdir="1.000 0.000 0.000" scale="1.700000 1.700000 0.100000" lighting="false" />
-        <Object id="lullabot" js_id="48" pos="-1.000000 -2.400000 15.700000" xdir="-1.000 0.000 0.000" ydir="0.000 0.000 1.000" zdir="0.000 1.000 0.000" />
-        <Object id="bush_1" js_id="49" pos="-9.400001 -2.500000 9.900001" xdir="0.000 0.000 1.000" zdir="-1.000 0.000 0.000" scale="0.300000 0.100000 0.300000" shader_id="distort" />
-        <Object id="stone" js_id="50" pos="-9.500000 -2.400000 9.500000" xdir="0.372 -0.002 -0.928" ydir="0.005 1.000 0.000" zdir="0.928 -0.005 0.372" scale="0.400000 0.500000 0.500000" lighting="false" />
-        <Object id="bush_1" js_id="51" pos="-38.359402 -2.245148 -0.552048" xdir="0.141 -0.000 -0.990" ydir="0.003 1.000 0.000" zdir="0.990 -0.003 0.141" scale="0.500000 0.500000 0.500000" shader_id="distort" />
-        <Object id="stone" js_id="52" pos="-6.900000 -2.400000 9.800000" xdir="-1.000 0.000 0.000" zdir="0.000 0.000 -1.000" lighting="false" />
-        <Object id="bush_1" js_id="53" pos="-38.799999 -2.200000 10.000000" shader_id="distort" />
-        <Object id="bush_1" js_id="54" pos="-38.375061 -2.249161 8.973877" xdir="-0.034 0.000 -0.999" ydir="0.004 1.000 -0.000" zdir="0.999 -0.004 -0.034" scale="0.700000 0.700000 0.700000" shader_id="distort" />
-        <Object id="bush_1" js_id="55" pos="-28.056097 -1.825063 6.218766" xdir="0.026 0.004 1.000" ydir="0.004 1.000 -0.004" zdir="-1.000 0.004 0.026" scale="0.200000 0.200000 0.400000" col="0.500 0.510 0.500" shader_id="distort" />
-        <Object id="bush_1" js_id="56" pos="-38.700001 -2.200000 17.100000" xdir="0.107 -0.004 -0.994" ydir="0.003 1.000 -0.004" zdir="0.994 -0.003 0.107" scale="0.600000 0.600000 0.600000" shader_id="distort" />
-        <Object id="stone" js_id="57" pos="-38.104458 -2.244872 0.341336" xdir="-0.071 0.000 -0.997" ydir="0.004 1.000 -0.000" zdir="0.997 -0.004 -0.071" scale="0.900000 0.600000 0.500000" lighting="false" />
-        <Object id="coll" js_id="58" locked="true" pos="5.000000 -5.000000 6.000000" xdir="0.000 0.000 1.000" zdir="-1.000 0.000 0.000" scale="54.000000 11.000000 1.000000" collision_id="plane" />
-        <Object id="stone" js_id="59" pos="-28.105555 -1.825545 6.625448" col="0.500 0.500 0.500" lighting="false" />
-        <Object id="stone" js_id="60" pos="-38.142818 -2.246207 -3.803499" xdir="0.947 0.000 -0.321" ydir="-0.001 1.000 -0.002" zdir="0.321 0.002 0.947" scale="1.600000 1.000000 1.000000" lighting="false" />
-        <Object id="bush_1" js_id="61" pos="-38.427078 -2.246950 7.947049" xdir="-0.995 0.004 0.099" ydir="0.004 1.000 -0.004" zdir="-0.099 -0.004 -0.995" shader_id="distort" />
-        <Object id="stone" js_id="62" pos="-27.800001 -1.800000 7.700000" xdir="-0.068 0.004 0.998" ydir="0.004 1.000 -0.004" zdir="-0.998 0.004 -0.068" scale="0.500000 0.300000 0.400000" col="0.500 0.500 0.500" lighting="false" />
-        <Object id="stone" js_id="63" pos="-38.948780 -2.245661 5.574832" xdir="-0.985 0.000 -0.172" ydir="0.001 1.000 -0.005" zdir="0.172 -0.005 -0.985" scale="0.900000 0.600000 0.500000" lighting="false" />
-        <Object id="bush_1" js_id="64" pos="-38.439568 -2.243577 7.481309" xdir="-0.553 -0.000 -0.833" ydir="0.004 1.000 -0.003" zdir="0.833 -0.005 -0.553" scale="0.500000 0.500000 0.500000" shader_id="distort" />
-        <Object id="bush_1" js_id="65" pos="-38.213379 -2.246456 1.155501" xdir="-0.011 0.000 -1.000" ydir="0.004 1.000 0.000" zdir="1.000 -0.004 -0.011" shader_id="distort" />
-        <Object id="bush_1" js_id="66" pos="-28.000000 -2.000000 8.600000" xdir="-0.982 0.004 0.188" ydir="0.005 1.000 0.003" zdir="-0.188 0.004 -0.982" scale="0.200000 0.200000 0.400000" col="0.500 0.510 0.500" shader_id="distort" />
-        <Object id="bush_1" js_id="67" pos="-38.600002 -2.200000 20.300001" xdir="-0.830 -0.000 -0.558" ydir="0.003 1.000 -0.005" zdir="0.558 -0.006 -0.830" scale="0.600000 0.600000 0.600000" shader_id="distort" />
-        <Object id="bush_1" js_id="68" pos="-27.939999 -1.830000 8.950000" xdir="0.982 0.004 -0.188" ydir="-0.005 1.000 -0.003" zdir="0.188 0.004 0.982" scale="0.400000 0.240000 0.400000" col="0.500 0.510 0.500" shader_id="distort" />
-        <Object id="bush_1" js_id="69" pos="-38.799999 -2.900000 15.800000" xdir="-0.093 -0.004 -0.996" ydir="0.004 1.000 -0.004" zdir="0.996 -0.004 -0.093" scale="0.700000 0.700000 0.700000" shader_id="distort" />
-        <Object id="coll" js_id="70" locked="true" pos="-50.000000 6.000000 19.000000" xdir="0.000 0.000 -1.000" ydir="1.000 0.000 0.000" zdir="0.000 -1.000 0.000" scale="77.000000 51.000000 19.000000" collision_id="plane" />
-        <Object id="bush_1" js_id="71" pos="-27.873121 -1.826506 9.119437" xdir="-0.154 0.005 0.988" ydir="0.004 1.000 -0.004" zdir="-0.988 0.003 -0.154" scale="0.200000 0.200000 0.400000" col="0.500 0.510 0.500" shader_id="distort" />
-        <Object id="bush_1" js_id="72" pos="-38.900002 -3.000000 19.900000" xdir="-0.078 -0.004 -0.997" ydir="0.004 1.000 -0.004" zdir="0.997 -0.004 -0.078" shader_id="distort" />
-        <Sound id="bg-audio" js_id="73" loop="true" rect="-100.000000 50.000000 100.000000 -50.000000" />
-        <Text js_id="sirkitree-6-1430876982" pos="1.300000 0.400000 -1.300000" xdir="0.707 0.000 0.707" ydir="-0.037 0.999 0.037" zdir="-0.706 -0.053 0.706" scale="2.300000 3.000000 1.000000" col="1.000 0.160 0.160">Lullabot Loves You!</Text>
-        <Link pos="-25.799999 -2.900000 2.500000" xdir="0.707107 -0.000007 -0.707107" ydir="0.000004 1.000000 -0.000006" zdir="0.707107 0.000001 0.707107" url="expo/bravo.html" col="0.978353 0.660000 0.990000" scale="1.800000 2.500000 1.000000" title="Bravo TV" thumb_id="bravo" />
-        <Link pos="-25.400000 -3.100000 12.700000" xdir="-0.707106 -0.000007 -0.707107" ydir="-0.000006 1.000000 -0.000004" zdir="0.707107 0.000001 -0.707106" url="expo/msnbc.html" col="0.990000 0.660000 0.990000" scale="1.700000 2.500000 1.000000" title="Lullabot Client: MSNBC" thumb_id="msnbc" />
-        <Link pos="-23.100000 -3.100000 14.500000" xdir="-0.707106 -0.000007 -0.707107" ydir="-0.000006 1.000000 -0.000004" zdir="0.707107 0.000001 -0.707106" url="expo/namm.html" col="0.978353 0.660000 0.990000" scale="1.800000 2.500000 1.000000" title="NAMM Foundation" thumb_id="namm" />
-        <Link pos="-23.000000 -3.000000 0.500000" xdir="0.707107 -0.000007 -0.707107" ydir="0.000004 1.000000 -0.000006" zdir="0.707107 0.000001 0.707107"  url="expo/syfy.html" col="0.978353 0.660000 0.990000" scale="1.800000 2.500000 1.000000" title="Syfy" thumb_id="syfy" />
-    </Room>
+<Assets>
+<AssetObject id="bush_1" src="models/bamboo.obj" mtl="models/bamboo.mtl" tex_compress="true" />
+<AssetObject id="coll" src="models/obj_floor.obj" tex0="imgs/transparent.png" tex_compress="true" />
+<AssetObject id="main" src="models/1.dae" tex_compress="true" />
+<AssetObject id="lullabot" src="models/6inch_robot.dwg.obj" mtl="models/6inch_robot.dwg.mtl" tex_compress="true" />
+<AssetObject id="plane" src="expo/assets/plane.obj" />
+<AssetObject id="stone" src="models/stone.obj" mtl="models/stone.mtl" tex_compress="true" />
+<AssetObject id="emit" src="models/emit.obj" tex0="imgs/white.png" tex_compress="true" />
+<AssetImage id="front" src="imgs/front.jpg" tex_clamp="true" tex_compress="true" />
+<AssetImage id="bottom" src="imgs/bottom.jpg" tex_clamp="true" tex_compress="true" />
+<AssetImage id="left" src="imgs/left.jpg" tex_clamp="true" tex_compress="true" />
+<AssetImage id="mexico" src="imgs/mexico.jpg" tex_clamp="true" tex_compress="true" />
+<AssetImage id="namm" src="expo/namm_thumb.jpg" tex_clamp="true" tex_compress="true" />
+<AssetImage id="right" src="imgs/right.jpg" tex_clamp="true" tex_compress="true" />
+<AssetImage id="msnbc" src="expo/msnbc_thumb.jpg" tex_clamp="true" tex_compress="true" />
+<AssetImage id="top" src="imgs/top.jpg" tex_clamp="true" tex_compress="true" />
+<AssetImage id="smoketree" src="imgs/smoketree.jpeg" tex_clamp="true" tex_compress="true" />
+<AssetImage id="client-logos" src="imgs/client-logos.png" tex_clamp="true" tex_compress="true" />
+<AssetImage id="bravo" src="expo/bravo_thumb.jpg" tex_clamp="true" tex_compress="true" />
+<AssetImage id="back" src="imgs/back.jpg" tex_clamp="true" tex_compress="true" />
+<AssetImage id="syfy" src="expo/syfy_thumb.jpg" tex_clamp="true" tex_compress="true" />
+<AssetImage id="bot_poster" src="imgs/ad_lullabot_print.png" tex_clamp="true" tex_compress="true" />
+<AssetImage id="lullalogo" src="imgs/lullalogo_horizontal.png" tex_clamp="true" tex_compress="true" />
+<AssetShader id="distort" vertex_src="shaders/distort.txt" />
+<AssetSound id="bg-audio" src="audio/Inspiring.mp3" />
+<AssetWebSurface id="botvid" src="https://vimeo.com/116565603" width="1280" height="720" />
+</Assets>
+<Room pos="2.200000 -2.100000 -2.200000" xdir="0.707107 0.000000 0.707106" ydir="0.000000 1.000000 0.000000" zdir="-0.707106 0.000000 0.707107" col="1.000000 1.000000 1.000000" skybox_down_id="bottom" skybox_front_id="front" skybox_left_id="left" skybox_back_id="back" skybox_right_id="right" skybox_up_id="top" teleport_min_dist="10000.000000" teleport_max_dist="10000.000000">
+<Object id="plane" js_id="5" pos="-7.900000 -0.400000 17.400000" xdir="-1.000 0.000 0.000" zdir="0.000 0.000 -1.000" scale="7.300000 3.700000 1.000000" lighting="false" websurface_id="botvid" />
+<Object id="bush_1" js_id="6" pos="-38.799999 -2.200000 18.100000" xdir="-0.022 -0.004 -1.000" ydir="0.004 1.000 -0.004" zdir="1.000 -0.004 -0.022" scale="0.800000 0.800000 0.800000" shader_id="distort" />
+<Object id="stone" js_id="7" pos="-38.895828 -2.246336 2.886888" xdir="-0.605 0.000 -0.796" ydir="0.004 1.000 -0.003" zdir="0.796 -0.005 -0.605" scale="1.600000 1.000000 1.000000" lighting="false" />
+<Object id="stone" js_id="8" pos="-38.085728 -2.245021 -1.252228" xdir="-0.530 -0.000 -0.848" ydir="0.004 1.000 -0.003" zdir="0.848 -0.005 -0.530" scale="1.600000 1.000000 1.000000" lighting="false" />
+<Image id="mexico" js_id="9" pos="-24.800001 -1.000000 0.800000" xdir="-0.788 0.000 0.616" ydir="-0.002 1.000 -0.003" zdir="-0.616 -0.004 -0.788" scale="2.000000 2.000000 0.900000" lighting="false" />
+<Object id="stone" js_id="10" pos="-38.600002 -2.400000 14.000000" xdir="0.392 -0.005 -0.920" ydir="0.004 1.000 -0.004" zdir="0.920 -0.002 0.392" scale="1.600000 1.000000 1.000000" lighting="false" />
+<Object id="bush_1" js_id="11" pos="-28.072840 -1.825488 5.768062" xdir="-0.415 0.005 0.910" ydir="0.004 1.000 -0.004" zdir="-0.910 0.002 -0.415" scale="0.200000 0.200000 0.400000" col="0.500 0.510 0.500" shader_id="distort" />
+<Object id="stone" js_id="12" pos="-37.982639 -2.247366 20.221716" xdir="-0.575 -0.000 -0.818" ydir="0.004 1.000 -0.003" zdir="0.818 -0.005 -0.575" scale="0.900000 0.600000 0.500000" lighting="false" />
+<Object id="stone" js_id="13" pos="-38.400002 -2.600000 -2.300000" xdir="0.000 0.000 -1.000" zdir="1.000 0.000 0.000" scale="0.400000 2.600000 0.300000" col="1.000 0.990 0.800" lighting="false" />
+<Object id="coll" js_id="14" locked="true" pos="-27.800001 -3.000000 -5.300000" scale="82.000000 11.000000 1.000000" collision_id="plane" />
+<Object id="stone" js_id="15" pos="-38.200001 -2.200000 18.000000" xdir="0.977 -0.000 0.212" ydir="-0.001 1.000 0.006" zdir="-0.212 -0.006 0.977" scale="1.400000 1.000000 1.000000" lighting="false" />
+<Object id="bush_1" js_id="16" pos="-38.887230 -2.246196 -3.921478" xdir="0.385 0.000 -0.923" ydir="0.002 1.000 0.001" zdir="0.923 -0.002 0.385" scale="0.500000 0.500000 0.500000" shader_id="distort" />
+<Object id="bush_1" js_id="17" pos="-9.400001 -2.400000 6.900000" xdir="-0.816 0.006 0.577" ydir="0.004 1.000 -0.004" zdir="-0.577 -0.001 -0.816" scale="0.200000 0.100000 0.100000" shader_id="distort" />
+<Object id="stone" js_id="18" pos="-38.452850 -2.246656 19.698997" xdir="-0.877 -0.002 -0.481" ydir="0.001 1.000 -0.005" zdir="0.481 -0.005 -0.877" scale="1.400000 2.600000 0.500000" col="1.000 0.990 0.800" lighting="false" />
+<Object id="bush_1" js_id="19" pos="-28.000000 -1.800000 6.030000" xdir="0.897 0.004 -0.442" ydir="-0.005 1.000 -0.002" zdir="0.442 0.004 0.897" scale="0.400000 0.200000 0.400000" col="0.500 0.510 0.500" shader_id="distort" />
+<Object id="main" js_id="20" locked="true" pos="5.000000 -2.000000 -5.000000" xdir="-1.000 0.000 0.000" zdir="0.000 0.000 -1.000" lighting="false" collision_id="main" />
+<Object id="stone" js_id="21" pos="-9.500001 -2.700000 7.700000" xdir="0.849 -0.003 -0.529" ydir="0.005 1.000 0.003" zdir="0.529 -0.005 0.849" scale="1.300000 2.000000 0.600000" lighting="false" />
+<Object id="stone" js_id="22" pos="-39.400002 -2.600000 7.000000" xdir="0.957 0.000 -0.289" ydir="-0.001 1.000 -0.003" zdir="0.289 0.003 0.957" scale="3.000000 2.000000 2.000000" lighting="false" />
+<Object id="coll" js_id="23" locked="true" pos="-39.000000 8.000000 8.000000" xdir="0.000 0.000 1.000" ydir="0.000 -1.000 0.000" zdir="1.000 0.000 0.000" scale="28.000000 11.000000 1.000000" collision_id="plane" />
+<Object id="bush_1" js_id="24" pos="-38.308315 -2.246497 3.739860" xdir="-0.290 0.000 -0.957" ydir="0.005 1.000 -0.001" zdir="0.957 -0.005 -0.290" scale="0.500000 0.500000 0.500000" shader_id="distort" />
+<Object id="coll" js_id="25" locked="true" pos="-24.000000 -4.000000 21.600000" xdir="-1.000 0.004 -0.012" ydir="0.004 1.000 -0.004" zdir="0.012 -0.004 -1.000" scale="54.000000 11.000000 1.000000" collision_id="plane" />
+<Image id="smoketree" js_id="26" pos="-25.000000 -0.800000 14.100000" xdir="0.788 0.000 0.616" ydir="0.002 1.000 -0.003" zdir="-0.616 0.004 0.788" scale="2.000000 2.000000 0.900000" lighting="false" />
+<Object id="bush_1" js_id="27" pos="-39.170780 -2.250109 17.355104" xdir="-0.078 -0.004 -0.997" ydir="0.004 1.000 -0.004" zdir="0.997 -0.004 -0.078" shader_id="distort" />
+<Object id="bush_1" js_id="28" pos="-9.200000 -2.400000 7.200000" xdir="0.669 -0.000 0.743" ydir="-0.004 1.000 0.004" zdir="-0.743 -0.006 0.669" scale="0.300000 0.100000 0.200000" shader_id="distort" />
+<Object id="bush_1" js_id="29" pos="-6.300000 -2.500000 10.000000" xdir="0.000 0.000 1.000" zdir="-1.000 0.000 0.000" scale="0.200000 0.200000 0.300000" shader_id="distort" />
+<Object id="bush_1" js_id="30" pos="-38.600002 -2.300000 15.500000" xdir="0.168 -0.004 -0.986" ydir="0.005 1.000 -0.003" zdir="0.986 -0.004 0.168" scale="0.600000 0.600000 0.600000" col="0.980 0.980 1.000" shader_id="distort" />
+<Object id="bush_1" js_id="31" pos="-38.538414 -2.249637 -2.244159" xdir="-0.063 0.000 -0.998" ydir="0.004 1.000 -0.000" zdir="0.998 -0.004 -0.063" shader_id="distort" />
+<Object id="emit" js_id="32" locked="true" pos="5.000000 -2.000000 -5.000000" xdir="-1.000 0.000 0.000" zdir="0.000 0.000 -1.000" lighting="false" collision_id="emit" />
+<Object id="bush_1" js_id="33" pos="-38.567001 -2.245740 5.823911" xdir="-0.998 0.000 0.067" ydir="-0.000 1.000 -0.004" zdir="-0.067 -0.004 -0.998" scale="0.700000 0.700000 0.700000" shader_id="distort" />
+<Object id="bush_1" js_id="34" pos="-38.607471 -2.248118 -3.044181" xdir="0.240 0.000 -0.971" ydir="0.003 1.000 0.001" zdir="0.971 -0.003 0.240" scale="0.700000 0.700000 0.700000" shader_id="distort" />
+<Object id="stone" js_id="35" pos="-38.799999 -2.400000 16.600000" xdir="0.150 -0.000 -0.989" ydir="0.003 1.000 0.000" zdir="0.989 -0.003 0.150" scale="1.600000 1.000000 1.000000" lighting="false" />
+<Image id="lullalogo" js_id="36" pos="-16.700001 2.400000 7.400000" xdir="0.000 0.000 -1.000" zdir="1.000 0.000 0.000" scale="2.000000 2.000000 0.100000" />
+<Image id="logo" js_id="37" pos="-16.770000 2.410000 7.310000" xdir="0.000 0.000 -1.000" zdir="1.000 0.000 0.000" scale="2.100000 1.650000 1.000000" />
+<Object id="bush_1" js_id="38" pos="-38.249813 -2.246797 2.034506" xdir="0.058 -0.000 -0.998" ydir="0.004 1.000 0.000" zdir="0.998 -0.004 0.058" scale="0.700000 0.700000 0.700000" shader_id="distort" />
+<Object id="stone" js_id="39" pos="-38.299999 -2.500000 -3.000000" xdir="0.000 0.000 1.000" zdir="-1.000 0.000 0.000" scale="0.400000 2.600000 0.400000" col="1.000 0.990 0.800" lighting="false" />
+<Object id="bush_1" js_id="40" pos="-6.500000 -2.400000 10.000000" xdir="-0.753 0.000 -0.659" ydir="0.004 1.000 -0.004" zdir="0.659 -0.006 -0.753" scale="0.200000 0.100000 0.200000" shader_id="distort" />
+<Object id="bush_1" js_id="41" pos="-9.400001 -2.700000 7.200000" xdir="-0.336 -0.002 -0.942" ydir="0.004 1.000 -0.004" zdir="0.942 -0.005 -0.336" scale="0.300000 0.200000 0.300000" shader_id="distort" />
+<Object id="bush_1" js_id="42" pos="-38.681084 -2.248768 -1.275192" xdir="0.127 -0.000 -0.992" ydir="0.003 1.000 0.000" zdir="0.992 -0.003 0.127" scale="0.700000 0.700000 0.700000" shader_id="distort" />
+<Object id="stone" js_id="43" pos="-28.100000 -2.000000 8.600000" xdir="-0.429 0.006 -0.903" ydir="0.001 1.000 0.006" zdir="0.903 0.002 -0.429" scale="1.600000 1.000000 1.000000" col="0.500 0.500 0.500" lighting="false" />
+<Object id="stone" js_id="44" pos="-38.299999 -2.300000 -2.600000" xdir="0.000 0.000 -1.000" zdir="1.000 0.000 0.000" scale="0.400000 2.600000 0.300000" col="1.000 0.990 0.800" lighting="false" />
+<Object id="bush_1" js_id="45" pos="-38.799999 -2.600000 14.300000" xdir="-0.500 0.000 0.866" zdir="-0.866 0.000 -0.500" scale="0.500000 0.500000 0.500000" shader_id="distort" />
+<Image id="client-logos" js_id="46" pos="-27.099998 -1.540000 7.470000" xdir="0.000 0.000 -1.000" zdir="1.000 0.000 0.000" scale="1.700000 1.700000 0.100000" lighting="false" />
+<Object id="lullabot" js_id="47" pos="-1.000000 -2.400000 15.700000" xdir="-1.000 0.000 0.000" ydir="0.000 0.000 1.000" zdir="0.000 1.000 0.000" />
+<Object id="bush_1" js_id="48" pos="-9.400001 -2.500000 9.900001" xdir="0.000 0.000 1.000" zdir="-1.000 0.000 0.000" scale="0.300000 0.100000 0.300000" shader_id="distort" />
+<Object id="stone" js_id="49" pos="-9.500000 -2.400000 9.500000" xdir="0.372 -0.002 -0.928" ydir="0.005 1.000 0.000" zdir="0.928 -0.005 0.372" scale="0.400000 0.500000 0.500000" lighting="false" />
+<Object id="bush_1" js_id="50" pos="-38.359402 -2.245148 -0.552048" xdir="0.141 -0.000 -0.990" ydir="0.003 1.000 0.000" zdir="0.990 -0.003 0.141" scale="0.500000 0.500000 0.500000" shader_id="distort" />
+<Object id="stone" js_id="51" pos="-6.900000 -2.400000 9.800000" xdir="-1.000 0.000 0.000" zdir="0.000 0.000 -1.000" lighting="false" />
+<Object id="bush_1" js_id="52" pos="-38.799999 -2.200000 10.000000" shader_id="distort" />
+<Object id="bush_1" js_id="53" pos="-38.375061 -2.249161 8.973877" xdir="-0.034 0.000 -0.999" ydir="0.004 1.000 -0.000" zdir="0.999 -0.004 -0.034" scale="0.700000 0.700000 0.700000" shader_id="distort" />
+<Object id="bush_1" js_id="54" pos="-28.056097 -1.825063 6.218766" xdir="0.026 0.004 1.000" ydir="0.004 1.000 -0.004" zdir="-1.000 0.004 0.026" scale="0.200000 0.200000 0.400000" col="0.500 0.510 0.500" shader_id="distort" />
+<Object id="bush_1" js_id="55" pos="-38.700001 -2.200000 17.100000" xdir="0.107 -0.004 -0.994" ydir="0.003 1.000 -0.004" zdir="0.994 -0.003 0.107" scale="0.600000 0.600000 0.600000" shader_id="distort" />
+<Object id="stone" js_id="56" pos="-38.104458 -2.244872 0.341336" xdir="-0.071 0.000 -0.997" ydir="0.004 1.000 -0.000" zdir="0.997 -0.004 -0.071" scale="0.900000 0.600000 0.500000" lighting="false" />
+<Object id="coll" js_id="57" locked="true" pos="5.000000 -5.000000 6.000000" xdir="0.000 0.000 1.000" zdir="-1.000 0.000 0.000" scale="54.000000 11.000000 1.000000" collision_id="plane" />
+<Object id="stone" js_id="58" pos="-28.105555 -1.825545 6.625448" col="0.500 0.500 0.500" lighting="false" />
+<Object id="stone" js_id="59" pos="-38.142818 -2.246207 -3.803499" xdir="0.947 0.000 -0.321" ydir="-0.001 1.000 -0.002" zdir="0.321 0.002 0.947" scale="1.600000 1.000000 1.000000" lighting="false" />
+<Object id="bush_1" js_id="60" pos="-38.427078 -2.246950 7.947049" xdir="-0.995 0.004 0.099" ydir="0.004 1.000 -0.004" zdir="-0.099 -0.004 -0.995" shader_id="distort" />
+<Object id="stone" js_id="61" pos="-27.800001 -1.800000 7.700000" xdir="-0.068 0.004 0.998" ydir="0.004 1.000 -0.004" zdir="-0.998 0.004 -0.068" scale="0.500000 0.300000 0.400000" col="0.500 0.500 0.500" lighting="false" />
+<Object id="stone" js_id="62" pos="-38.948780 -2.245661 5.574832" xdir="-0.985 0.000 -0.172" ydir="0.001 1.000 -0.005" zdir="0.172 -0.005 -0.985" scale="0.900000 0.600000 0.500000" lighting="false" />
+<Object id="bush_1" js_id="63" pos="-38.439568 -2.243577 7.481309" xdir="-0.553 -0.000 -0.833" ydir="0.004 1.000 -0.003" zdir="0.833 -0.005 -0.553" scale="0.500000 0.500000 0.500000" shader_id="distort" />
+<Object id="bush_1" js_id="64" pos="-38.213379 -2.246456 1.155501" xdir="-0.011 0.000 -1.000" ydir="0.004 1.000 0.000" zdir="1.000 -0.004 -0.011" shader_id="distort" />
+<Object id="bush_1" js_id="65" pos="-28.000000 -2.000000 8.600000" xdir="-0.982 0.004 0.188" ydir="0.005 1.000 0.003" zdir="-0.188 0.004 -0.982" scale="0.200000 0.200000 0.400000" col="0.500 0.510 0.500" shader_id="distort" />
+<Object id="bush_1" js_id="66" pos="-38.600002 -2.200000 20.300001" xdir="-0.830 -0.000 -0.558" ydir="0.003 1.000 -0.005" zdir="0.558 -0.006 -0.830" scale="0.600000 0.600000 0.600000" shader_id="distort" />
+<Object id="bush_1" js_id="67" pos="-27.939999 -1.830000 8.950000" xdir="0.982 0.004 -0.188" ydir="-0.005 1.000 -0.003" zdir="0.188 0.004 0.982" scale="0.400000 0.240000 0.400000" col="0.500 0.510 0.500" shader_id="distort" />
+<Object id="bush_1" js_id="68" pos="-38.799999 -2.900000 15.800000" xdir="-0.093 -0.004 -0.996" ydir="0.004 1.000 -0.004" zdir="0.996 -0.004 -0.093" scale="0.700000 0.700000 0.700000" shader_id="distort" />
+<Object id="coll" js_id="69" locked="true" pos="-50.000000 6.000000 19.000000" xdir="0.000 0.000 -1.000" ydir="1.000 0.000 0.000" zdir="0.000 -1.000 0.000" scale="77.000000 51.000000 19.000000" collision_id="plane" />
+<Object id="bush_1" js_id="70" pos="-27.873121 -1.826506 9.119437" xdir="-0.154 0.005 0.988" ydir="0.004 1.000 -0.004" zdir="-0.988 0.003 -0.154" scale="0.200000 0.200000 0.400000" col="0.500 0.510 0.500" shader_id="distort" />
+<Object id="bush_1" js_id="71" pos="-38.900002 -3.000000 19.900000" xdir="-0.078 -0.004 -0.997" ydir="0.004 1.000 -0.004" zdir="0.997 -0.004 -0.078" shader_id="distort" />
+<Sound id="bg-audio" js_id="72" loop="true" rect="-100.000000 50.000000 100.000000 -50.000000" />
+<Text js_id="sirkitree-6-1430876982" pos="1.300000 0.400000 -1.300000" xdir="0.707 0.000 0.707" ydir="-0.037 0.999 0.037" zdir="-0.706 -0.053 0.706" scale="2.300000 3.000000 1.000000" col="1.000 0.160 0.160">Lullabot Loves You!</Text>
+<Text js_id="sirkitree-1-1431220542" pos="-24.206665 0.196398 13.732173" xdir="-0.788 0.000 -0.616" ydir="0.002 1.000 -0.003" zdir="0.616 -0.004 -0.788" scale="3.000000 3.000000 1.000000">Responsive Designs</Text>
+<Text js_id="sirkitree-2-1431220580" pos="-24.553614 0.224566 1.474572" xdir="0.788 0.000 -0.616" ydir="0.002 1.000 0.003" zdir="0.616 -0.004 0.788" scale="3.000000 3.000000 1.000000">Responsive Designs</Text>
+<Link pos="-25.799999 -2.900000 2.500000" xdir="0.707107 -0.000007 -0.707107" ydir="0.000004 1.000000 -0.000006" zdir="0.707107 0.000001 0.707107" url="expo/bravo.html" col="0.978353 0.660000 0.990000" scale="1.800000 2.500000 1.000000" title="Bravo TV" thumb_id="bravo" />
+<Link pos="-25.400000 -3.100000 12.700000" xdir="-0.707106 -0.000007 -0.707107" ydir="-0.000006 1.000000 -0.000004" zdir="0.707107 0.000001 -0.707106" url="expo/msnbc.html" col="0.990000 0.660000 0.990000" scale="1.700000 2.500000 1.000000" title="Lullabot Client: MSNBC" thumb_id="msnbc" />
+<Link pos="-23.100000 -3.100000 14.500000" xdir="-0.707106 -0.000007 -0.707107" ydir="-0.000006 1.000000 -0.000004" zdir="0.707107 0.000001 -0.707106" url="expo/namm.html" col="0.978353 0.660000 0.990000" scale="1.800000 2.500000 1.000000" title="Lullabot Client: NAMM" thumb_id="namm" />
+<Link pos="-23.000000 -3.000000 0.500000" xdir="0.707107 -0.000007 -0.707107" ydir="0.000004 1.000000 -0.000006" zdir="0.707107 0.000001 0.707107" url="expo/syfy.html" col="0.978353 0.660000 0.990000" scale="1.800000 2.500000 1.000000" title="Syfy" thumb_id="syfy" />
+</Room>
 </FireBoxRoom>
 </body>
 </html>
